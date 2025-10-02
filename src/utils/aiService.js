@@ -1,7 +1,7 @@
 // src/services/gemini.js
 export async function askAI(messages) {
     try {
-        const res = await fetch("AIzaSyBWtZFNdYKv3vG998GZHPdCo-bOCqs3gQg", {
+        const res = await fetch("", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
